@@ -8,7 +8,7 @@ use App\Http\Controllers\TaskController;
 use App\Http\Controllers\WeatherController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 })->name('home');
 
 // Authentication Routes
